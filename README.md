@@ -1,2 +1,0 @@
-# Vite template
-- postcss-nested
