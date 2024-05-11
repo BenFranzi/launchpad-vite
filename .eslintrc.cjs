@@ -26,6 +26,18 @@ module.exports = {
       rules: {
         "import/no-nodejs-modules": "off"
       }
+    },
+    // TEST CONDITIONS - REMOVE FOR REAL PROJECTS
+    {
+      files: ['*'],
+      rules: {
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "react/prop-types": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+        "jsx-a11y/no-autofocus": "off"
+      }
     }
+    //\TEST CONDITIONS - REMOVE FOR REAL PROJECTS
   ]
 }

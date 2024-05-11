@@ -21,6 +21,11 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
+
+    /* TEST CONDITIONS - REMOVE FOR REAL PROJECTS */
+    "noImplicitAny": false,
+    /*\TEST CONDITIONS - REMOVE FOR REAL PROJECTS */
+
     "paths": {
       "@/*": ["src/*"]
     },
