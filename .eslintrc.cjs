@@ -35,7 +35,9 @@ module.exports = {
         "@typescript-eslint/no-explicit-any": "off",
         "react/prop-types": "off",
         "@typescript-eslint/no-unused-vars": "off",
-        "jsx-a11y/no-autofocus": "off"
+        "jsx-a11y/no-autofocus": "off",
+        "prefer-arrow-callback": "off",
+        "no-console": "warn"
       }
     }
     //\TEST CONDITIONS - REMOVE FOR REAL PROJECTS
