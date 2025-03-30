@@ -9,7 +9,10 @@ const Title: FC<Props> = ({ value }) =>
   const [count, setCount] = useState(0);
   return (
     <div>
-      <h1 className={ styles.title }>{value}</h1>
+      <h1 className={ styles.title }>
+        {value}
+        <img src="/favicon-36x36.png" alt="wave emoij" width="36" height="36" />
+      </h1>
       <button data-testid='counter' onClick={ () => setCount(count + 1) }>I have been clicked {count} times!</button>
       <div css={{ background: 'blue', width: '10px', height: '10px' }} />
     </div>
