@@ -1,10 +1,12 @@
-import { ReactNode } from 'react';
+import { FC } from 'react';
 import Title from '@/components/Title';
 
-export default function App(): ReactNode {
+const App: FC = () => {
   return (
     <div>
-      <Title value={ 'Oh hey! 👋' } />
+      <Title value={ 'Oh hey!' } />
     </div>
   );
-}
+};
+
+export default App;
