@@ -4,7 +4,7 @@ import Title from '.';
 describe('Title', () => {
   test('Renders heading',  () => {
     render(<Title value={ 'Hello, world!' } />);
-    expect(screen.getByRole('heading', { name: 'Hello, world!' })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Hello, world! wave' })).toBeInTheDocument();
   });
 
   test('Button count updates',  async () => {
